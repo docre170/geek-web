@@ -1,0 +1,41 @@
+:root{
+  --base: #1C1F26; /* couleur demandée */
+  --base-2: #272B34;
+  --accent-cyan: #00B4D8;
+  --accent-violet: #7C4DFF;
+  --accent-coral: #FF6B6B;
+  --accent-warm: #FFD166;
+}
+
+body{
+     background: linear-gradient(135deg, var(--base) 0%, #232630 40%, var(--accent-cyan) 100%);
+  color: #fff;
+}
+header{
+     background: linear-gradient(120deg, var(--base) 0%, #222634 50%, var(--accent-violet) 100%);
+  color: #fff;
+  margin: 20px;
+}
+.intro{
+    background: linear-gradient(160deg, var(--base) 0%, #262930 50%, #3b4754 100%);
+    color: #fff;
+    display: flex;
+}
+.intro img{
+    height: auto;
+    width: 300px;
+    border-radius: 40%;
+    margin-right: 30px;
+}
+.intro nav a {
+    color: var(--accent-warm);
+    text-decoration: none;
+    margin-right: 299px;
+}
+.intro h1 {
+    margin-top: 100px;
+}
+footer{
+    background: linear-gradient(90deg, var(--base) 0%, #2b2f38 45%, var(--accent-coral) 100%);
+  color: #fff;
+}
